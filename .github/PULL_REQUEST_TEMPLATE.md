@@ -28,8 +28,6 @@
 
 <!-- 備考があれば書いてください -->
 
-
-
 <!-- 以下は GitHub Copilot 用の指示です -->
 
 <!-- for GitHub Copilot review rule -->
