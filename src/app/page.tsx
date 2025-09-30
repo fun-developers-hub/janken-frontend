@@ -1,4 +1,4 @@
-import { HandSelectButton } from "./components/HnadSelectButton";
+import { HandSelectButton } from "./components/HandSelectButton";
 
 export default function Home() {
   return (
