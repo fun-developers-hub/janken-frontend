@@ -2,7 +2,6 @@ import Image from "next/image";
 import rockImage from "../assets/goo.png";
 import paperImage from "../assets/per.png";
 import scissorsImage from "../assets/choki.png";   
-import { get } from "http";
 
 type Hand = "rock" | "paper" | "scissors";
 
