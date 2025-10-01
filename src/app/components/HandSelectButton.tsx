@@ -30,13 +30,13 @@ export const HandSelectButton = ({ hand }: Props) => {
     }
   };
 
-  const handProperties = getHandProperties();
+  const { image, backgroundColor } = getHandProperties();
     
 
   return (
-    <button className={`size-20 rounded-full border border-gray-300 overflow-hidden shadow-md ${handProperties.backgroundColor} hover:scale-105 transition-transform`}>
+    <button className={`size-20 rounded-full cursor-pointer border border-gray-300 overflow-hidden shadow-md ${backgroundColor}`}>
       <Image
-        src={handProperties.image}
+        src={image}
         alt={hand}
         width={1024}
         height={1024}
