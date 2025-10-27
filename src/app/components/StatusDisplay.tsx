@@ -1,10 +1,8 @@
-
-
 type Props = {
   children?: React.ReactNode;
 };
 
-export const StatusDisplay = ({ children, }: Props) => {
+export const StatusDisplay = ({ children }: Props) => {
   
   return (
     <div
