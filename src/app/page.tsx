@@ -5,9 +5,7 @@ import { FightingHand } from "../components/FightingHand";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-4">
-      <StatusDisplay>
-        win
-      </StatusDisplay>
+      <StatusDisplay>win</StatusDisplay>
 
       <div className="flex gap-4">
         <FightingHand hand="scissors" />
@@ -21,4 +19,3 @@ export default function Home() {
     </div>
   );
 }
-
