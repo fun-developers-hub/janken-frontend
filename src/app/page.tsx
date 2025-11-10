@@ -1,5 +1,6 @@
 import { HandSelectButton } from "./components/HandSelectButton";
 import { StatusDisplay } from "./components/StatusDisplay";
+import { FightingHand } from "./components/FightingHand";
 
 export default function Home() {
   return (
@@ -7,6 +8,10 @@ export default function Home() {
       <StatusDisplay>
         win
       </StatusDisplay>
+
+      <div className = "flex gap-4">
+        <FightingHand hand="scissors" />
+      </div>
 
       <div className="flex gap-4">
         <HandSelectButton hand="rock" />
